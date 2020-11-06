@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+body{
+	margin: 5px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Open Sans', sans-serif;
+
+}
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Open Sans', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.googleLogo {
+	margin-top: 100px;
+	width: 100%;
+	display:grid;
+	align-items: center;
+	justify-content: center;
+}	
+.searchBar {
+	padding: 1% 30%;
+	display:grid;
+	grid-template-rows: auto;
+	margin: auto;
+	
+}
+
+.inputBar{
+	width: 100%;
+	height: 85%;
+	border: solid 2px lightgrey;
+	border-radius: 24px;
+	display: grid;
+	grid-template-columns: 50px auto;
+	align-items: left;
+}
+.inputBar img{
+	width:35%;
+	padding-left: 25%;
+	padding-bottom: 5%;
+	grid-column: 1;
+}
+input {
+	border: none;
+	width: 95%;
+	height: 80%;
+	margin:auto;
+	grid-column: 2;
+	font-size:20px;
+	color: GRAY;
+}
+.buttonDiv {
+	padding: 2%;
+	margin:10px;
+	display: table;
+	margin:auto;
+}
+button {
+	background-color:rgb(242, 242, 242, 0.93);
+	color:#5F6368;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: none;
+	height: 35px;
+	width: auto;
+	border-radius: 5px;
+}
+header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+	color:rgba(0,0,0,0.87);
+}
+
+.navLeft {
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.navRight {
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+header nav a {
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+header nav a:visited {
+	color: #5F6368;
+}
+header button {
+	background-color: #4485f5;
+	border-radius: 0;
+	color: white;
+}
+header img{
+	position: relative;
+	top: 10px;
+	height: 26px;
+	width: 26px;
+}
+
+footer {
+	background-color: rgb(178, 220, 237, 0.2);
+	position:absolute;
+	width: 100%;
+	height: auto;
+	bottom: 0;	
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	margin: 5px;
+}
+footer a{
+	padding-left: 15px;
+
+}
+#navFooter{
+	padding-right: 35px;
+}

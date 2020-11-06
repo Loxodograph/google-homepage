@@ -1,0 +1,1 @@
+I am starting to code my google homepage for the Odin project. I will use the skills I learned in the freeCodeCamp Responsive Web Design program
