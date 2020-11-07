@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 body{
-	margin: 5px;
+	margin: 0px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -154,21 +154,29 @@ header img{
 }
 
 footer {
-	background-color: rgb(178, 220, 237, 0.2);
+	background-color: rgb(178, 220, 237, 0.19);
 	position:absolute;
 	width: 100%;
-	height: auto;
+	height: 4%;
 	bottom: 0;	
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 14px;
-	margin: 5px;
 }
 footer a{
 	padding-left: 15px;
+	text-decoration: none;
+	color: #5F6368;
 
 }
 #navFooter{
 	padding-right: 35px;
+}
+
+footer a:visited {
+	color: #5F6368;
+}
+footer a:hover {
+	text-decoration: underline;
 }
