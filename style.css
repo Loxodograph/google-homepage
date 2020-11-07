@@ -131,6 +131,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	color: #5F6368;
 }
 
 header nav a {
