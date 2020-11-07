@@ -136,6 +136,7 @@ header{
 header nav a {
 	text-decoration: none;
 	padding-left: 10px;
+	color: #5F6368;
 }
 
 header nav a:visited {
